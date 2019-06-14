@@ -21,12 +21,19 @@ class Button extends React.Component {
         });
     };
 
+    clickHandlerRandom = () => {
+        this.setState({
+            count: this.state.count = Math.floor(Math.random() * 100)
+        });
+    };
+
     render () {
         return(
             <section>
                 <Display name={this.state.count}/>
-                <button onClick={this.clickHandlerPlus}>+</button>
-                <button onClick={this.clickHandlerMinus}>-</button>
+                <button onClick={this.clickHandlerPlus}>Plus</button>
+                <button onClick={this.clickHandlerMinus}>Minus</button>
+                <button onClick={this.clickHandlerRandom}>Radom</button>
             </section>
         );
     };
