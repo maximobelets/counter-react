@@ -3,9 +3,9 @@ import Button from './Button';
 
 const App = () => {
     return(
-        <div>
+        <main>
             <Button />
-        </div>
+        </main>
     );
 };
 

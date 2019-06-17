@@ -1,5 +1,6 @@
 import React from 'react';
 import Display from './Display';
+import './Button.css';
 
 class Button extends React.Component {
     constructor() {
