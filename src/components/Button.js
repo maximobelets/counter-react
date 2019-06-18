@@ -3,11 +3,9 @@ import Display from './Display';
 import './Button.css';
 
 class Button extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            count: 0
-        };
+    
+    state = {
+        count: 0
     };
 
     clickHandlerPlus = () => {
