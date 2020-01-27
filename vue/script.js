@@ -9,6 +9,9 @@ const app = new Vue({
         },
         dec: function() {
             this.count--;
+        },
+        random: function() {
+            this.count = Math.floor(Math.random() * 99);
         }
     }
 })
