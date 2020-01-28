@@ -1,0 +1,22 @@
+div {
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #edf3ff;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+button {
+    font-size: 16px;
+    color: #ffffff;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1750ed;
+}
